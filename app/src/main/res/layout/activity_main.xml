@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_dark"
-    android:orientation="vertical"
-    android:theme="@android:style/Theme.Holo">
+    android:orientation="vertical">
+    <!--android:theme="@android:style/Theme.Holo">-->
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -23,8 +23,7 @@
             android:layout_weight="1"
             android:background="@android:color/background_light"
             android:inputType="numberDecimal"
-            android:textSize="40sp"
-            android:theme="@style/AppTheme"></EditText>
+            android:textSize="40sp"></EditText>
 
     </LinearLayout>
 
@@ -143,7 +142,8 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="0dip">
+            android:layout_height="0dip"
+            android:layout_weight="1">
 
             <Button
                 android:id="@+id/button_0"
