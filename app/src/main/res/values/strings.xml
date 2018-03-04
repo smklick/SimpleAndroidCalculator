@@ -15,4 +15,6 @@
     <string name="button_mult">*</string>
     <string name="button_divide">/</string>
     <string name="button_equals">=</string>
+    <string name="button_decimal">.</string>
+    <string name="button_clear">C</string>
 </resources>
